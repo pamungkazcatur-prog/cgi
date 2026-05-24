@@ -1,0 +1,74 @@
+/* ================================================
+   CATATAN GURU IPS — V4 PREMIUM EDITION
+   CSS Variables & Color Scheme
+   By: Catur Pamungkas
+================================================ */
+
+:root {
+  /* Primary Colors */
+  --primary: #22d3ee;
+  --primary-dark: #06b6d4;
+  --secondary: #818cf8;
+  --accent: #f43f5e;
+  --accent-muted: rgba(244, 63, 94, 0.15);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #22d3ee 0%, #818cf8 60%, #f43f5e 100%);
+  --gradient-brand: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+  --gradient-subtle: linear-gradient(135deg, rgba(34,211,238,0.1) 0%, rgba(129,140,248,0.1) 100%);
+
+  /* Background Colors */
+  --bg-primary: #060d1a;
+  --bg-secondary: #0d1526;
+  --bg-card: #111d33;
+  --bg-card-hover: #162040;
+  --bg-glass: rgba(13, 21, 38, 0.88);
+  --bg-input: rgba(34, 211, 238, 0.05);
+
+  /* Text Colors */
+  --text-primary: #f0f6ff;
+  --text-secondary: #94a3b8;
+  --text-muted: #4e637a;
+
+  /* Borders */
+  --border: rgba(34, 211, 238, 0.15);
+  --border-hover: rgba(34, 211, 238, 0.4);
+
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
+  --shadow-glow: 0 0 24px rgba(34, 211, 238, 0.2);
+  --shadow-hover: 0 8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(34, 211, 238, 0.15);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --t-fast: 0.15s var(--ease);
+  --t-normal: 0.28s var(--ease);
+  --t-slow: 0.45s var(--ease);
+
+  /* Layout */
+  --header-h: 72px;
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  --bg-primary: #f0f4f8;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8faff;
+  --bg-glass: rgba(255,255,255,0.9);
+  --bg-input: rgba(14, 165, 233, 0.06);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --border: rgba(14, 165, 233, 0.2);
+  --border-hover: rgba(14, 165, 233, 0.5);
+  --shadow-card: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 32px rgba(0,0,0,0.12), 0 0 0 1px rgba(14,165,233,0.3);
+}
